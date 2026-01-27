@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-24T12:02:12 IST" name="Default suite" finished-at="2026-01-24T12:02:12 IST" duration-ms="45">
+    <groups>
+    </groups>
+    <test started-at="2026-01-24T12:02:12 IST" name="Default test" finished-at="2026-01-24T12:02:12 IST" duration-ms="45">
+      <class name="org.testng.annotations.Login">
+        <test-method signature="login()[pri:0, instance:org.testng.annotations.Login@7e07db1f]" started-at="2026-01-24T12:02:12 IST" name="login" finished-at="2026-01-24T12:02:12 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="home()[pri:0, instance:org.testng.annotations.Login@7e07db1f]" started-at="2026-01-24T12:02:12 IST" name="home" finished-at="2026-01-24T12:02:12 IST" depends-on-methods="org.testng.annotations.Login.login" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home -->
+      </class> <!-- org.testng.annotations.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

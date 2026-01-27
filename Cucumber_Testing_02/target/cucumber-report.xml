@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="6.552">
+    <testcase classname="cucumber.io documentation page testing" name="Verify the Documentation" time="6.318">
+        <system-out><![CDATA[Given the user must be in chrome browser....................................passed
+Given The user is in cucumber home page.....................................passed
+When The user clicks on Documentation link..................................passed
+Then The user can view page content with What is Cucumber?..................passed
+]]></system-out>
+    </testcase>
+</testsuite>

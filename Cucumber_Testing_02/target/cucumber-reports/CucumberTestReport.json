@@ -1,0 +1,85 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 6,
+        "name": "The user must be in edge browser",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2026-01-27T10:18:17.948Z",
+        "line": 9,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "cucumber.io-test-case-file;title-of-your-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.get(String)\" because \"this.driver\" is null\r\n\tat StepDefinationFile01.Testcase001.presetup(Testcase001.java:23)\r\n\tat ✽.The user is in cucumber_io homepage(file:///C:/Users/aditya.sah/eclipse-workspace/Cucumber_Testing_02/src/test/java/Feature_Cucumber_java/documentation_test.feature:10)\r\n",
+              "duration": 4006900,
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "The user is in cucumber_io homepage",
+            "match": {
+              "location": "StepDefinationFile01.Testcase001.presetup()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "The user clicks on Documentation link",
+            "match": {
+              "location": "StepDefinationFile01.Testcase001.The_user_clicks_on_Documentation_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000100,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "The user can view the page content with What is Cucumber?",
+            "match": {
+              "location": "StepDefinationFile01.Testcase001.The_user_can_view_the_page_content_with_What_is_Cucumber()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "cucumber.io test case file",
+    "description": "",
+    "id": "cucumber.io-test-case-file",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Feature_Cucumber_java/documentation_test.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

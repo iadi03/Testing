@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.214">
+    <testcase classname="cucumber.io test case file" name="Title of your scenario" time="0.023">
+        <failure message="Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null" type="java.lang.NullPointerException"><![CDATA[Given The user is in cucumber_io homepage...................................failed
+When The user clicks on Documentation link..................................skipped
+Then The user can view the page content with What is Cucumber?..............skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
+	at StepDefinationFile01.Testcase001.presetup(Testcase001.java:23)
+	at ✽.The user is in cucumber_io homepage(file:///C:/Users/aditya.sah/eclipse-workspace/Cucumber_Testing_02/src/test/java/Feature_Cucumber_java/documentation_test.feature:10)
+]]></failure>
+    </testcase>
+</testsuite>

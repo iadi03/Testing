@@ -1,0 +1,572 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2026-01-27T07:30:41.611Z",
+        "before": [
+          {
+            "result": {
+              "duration": 999100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Bbd2.Hooks.testBefore_tag()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Bbd2.Hooks.test_Before_tag()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Bbd2.Hooks.testBefore()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "user-login;title-of-your-scenario-outline;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 999400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Bbd2.Hooks.testAfter()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1003400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Bbd2.Hooks.test_After_tag()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Bbd2.Hooks.testAfter_tag()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1006400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Bbd2.Hooks.test_Before_Step()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I want to write a step with \"Aslak\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Aslak\"",
+                  "offset": 28
+                }
+              ],
+              "location": "Bbd2.Test_Output.i_want_to_write_a_step_with(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Bbd2.Hooks.test_After_Step()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3987100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Bbd2.Hooks.test_Before_Step()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I want to enter 1234 id as idnum",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1234",
+                  "offset": 16
+                }
+              ],
+              "location": "Bbd2.Test_Output.idtest(int)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 980800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Bbd2.Hooks.test_After_Step()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4003800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Bbd2.Hooks.test_Before_Step()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "I want to enter 26000.22 as salary",
+            "match": {
+              "arguments": [
+                {
+                  "val": "26000.22",
+                  "offset": 16
+                }
+              ],
+              "location": "Bbd2.Test_Output.saltest(double)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 999600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Bbd2.Hooks.test_After_Step()"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag6"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2026-01-27T07:30:41.664Z",
+        "before": [
+          {
+            "result": {
+              "duration": 999400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Bbd2.Hooks.testBefore_tag()"
+            }
+          },
+          {
+            "result": {
+              "duration": 999000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Bbd2.Hooks.test_Before_tag()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Bbd2.Hooks.testBefore()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "user-login;title-of-your-scenario-outline;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Bbd2.Hooks.testAfter()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Bbd2.Hooks.test_After_tag()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Bbd2.Hooks.testAfter_tag()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Bbd2.Hooks.test_Before_Step()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I want to write a step with \"Julien\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Julien\"",
+                  "offset": 28
+                }
+              ],
+              "location": "Bbd2.Test_Output.i_want_to_write_a_step_with(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Bbd2.Hooks.test_After_Step()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1001000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Bbd2.Hooks.test_Before_Step()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I want to enter 1235 id as idnum",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1235",
+                  "offset": 16
+                }
+              ],
+              "location": "Bbd2.Test_Output.idtest(int)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Bbd2.Hooks.test_After_Step()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Bbd2.Hooks.test_Before_Step()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "I want to enter 63254.22 as salary",
+            "match": {
+              "arguments": [
+                {
+                  "val": "63254.22",
+                  "offset": 16
+                }
+              ],
+              "location": "Bbd2.Test_Output.saltest(double)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Bbd2.Hooks.test_After_Step()"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag6"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2026-01-27T07:30:41.684Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Bbd2.Hooks.testBefore_tag()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1014200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Bbd2.Hooks.test_Before_tag()"
+            }
+          },
+          {
+            "result": {
+              "duration": 987100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Bbd2.Hooks.testBefore()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "user-login;title-of-your-scenario-outline;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 998000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Bbd2.Hooks.testAfter()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Bbd2.Hooks.test_After_tag()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Bbd2.Hooks.testAfter_tag()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 999800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Bbd2.Hooks.test_Before_Step()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I want to write a step with \"Matt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Matt\"",
+                  "offset": 28
+                }
+              ],
+              "location": "Bbd2.Test_Output.i_want_to_write_a_step_with(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 999800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Bbd2.Hooks.test_After_Step()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Bbd2.Hooks.test_Before_Step()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I want to enter 1236 id as idnum",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1236",
+                  "offset": 16
+                }
+              ],
+              "location": "Bbd2.Test_Output.idtest(int)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Bbd2.Hooks.test_After_Step()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Bbd2.Hooks.test_Before_Step()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "I want to enter 63278.36 as salary",
+            "match": {
+              "arguments": [
+                {
+                  "val": "63278.36",
+                  "offset": 16
+                }
+              ],
+              "location": "Bbd2.Test_Output.saltest(double)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Bbd2.Hooks.test_After_Step()"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag6"
+          }
+        ]
+      }
+    ],
+    "name": "User Login",
+    "description": "",
+    "id": "user-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Bbd2/Test_03.feature",
+    "tags": []
+  }
+]

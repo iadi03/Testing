@@ -1,136 +1,90 @@
 [
   {
-    "line": 3,
+    "line": 2,
     "elements": [
       {
-        "start_timestamp": "2026-01-28T07:11:38.011Z",
-        "line": 13,
-        "name": "Validate signup result",
+        "start_timestamp": "2026-01-28T12:01:59.493Z",
+        "line": 5,
+        "name": "Validate signup with Excel row 1 (first data row)",
         "description": "",
-        "id": "sign-up-bookswagon;validate-signup-result;;2",
+        "id": "sign-up-bookswagon;validate-signup-with-excel-row-1-(first-data-row)",
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 9865219800,
+              "duration": 7107410400,
               "status": "passed"
             },
-            "line": 7,
+            "line": 6,
             "name": "I am on the BooksWagon signup page",
             "match": {
-              "location": "StepDefination03.Testcase03.openSignupPage()"
+              "location": "Excel_File.Excel01.openSignupPage()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 3661428200,
+              "duration": 1003917400,
               "status": "passed"
             },
-            "line": 8,
-            "name": "I sign up using name \"Priyanshu\" and mobile \"9998887776\" expecting \"pass\"",
+            "line": 7,
+            "name": "I sign up using excel row 1 expecting \"pass\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Priyanshu\"",
-                  "offset": 21
-                },
-                {
-                  "val": "\"9998887776\"",
-                  "offset": 44
+                  "val": "1",
+                  "offset": 26
                 },
                 {
                   "val": "\"pass\"",
-                  "offset": 67
+                  "offset": 38
                 }
               ],
-              "location": "StepDefination03.Testcase03.signup(java.lang.String,java.lang.String,java.lang.String)"
+              "location": "Excel_File.Excel01.signup_from_excel_row(java.lang.Integer,java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 542412800,
+              "duration": 8230543100,
               "status": "passed"
             },
+            "line": 8,
+            "name": "I click captcha and wait",
+            "match": {
+              "location": "Excel_File.Excel01.click_captcha_and_wait()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003cinput type\u003d\"submit\" name\u003d\"ctl00$phBody$SignUp$btnContinue\" value\u003d\"Continue\" onclick\u003d\"javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(\u0026quot;ctl00$phBody$SignUp$btnContinue\u0026quot;, \u0026quot;\u0026quot;, true, \u0026quot;vgSignUp\u0026quot;, \u0026quot;\u0026quot;, false, false))\" id\u003d\"ctl00_phBody_SignUp_btnContinue\" class\u003d\"btn btn-block border themeborder themecolor mb-2 signupcontinue mt-3\"\u003e is not clickable at point (950, 627). Other element would receive the click: \u003ciframe title\u003d\"recaptcha challenge expires in two minutes\" name\u003d\"c-3e9ze9dr4yh7\" frameborder\u003d\"0\" scrolling\u003d\"no\" sandbox\u003d\"allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation\" src\u003d\"https://www.google.com/recaptcha/api2/bframe?hl\u003den\u0026amp;v\u003dN67nZn4AqZkNcbeMu4prBgzg\u0026amp;k\u003d6LcWegclAAAAANuIZ3_JgCoh-naBjY69vaCvY2Xj\u0026amp;bft\u003d0dAFcWeA7Mhs_kSA_iAGsrWLpXnu-CilJF_oUqtsFsWn8P3kzn35_RafiN8Sylps-KaHPjb2JBO5_31ICx1I6vexHX0SMDu14e-w\" style\u003d\"width: 400px; height: 611px;\"\u003e\u003c/iframe\u003e\n  (Session info: chrome\u003d144.0.7559.61)\nBuild info: version: \u00274.36.0\u0027, revision: \u00276d115cfd87\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.6\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [ec7c9a507648e080e35bae4ae2623235, clickElement {id\u003df.BC90CB4FCBB88E5DDC3BE043773F17D9.d.D5897519E1E89ED357F4FF8ACD001634.e.93}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.61, chrome: {chromedriverVersion: 144.0.7559.109 (6a8d5e49388..., userDataDir: C:\\Users\\aditya.sah\\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58803}, goog:processID: 14632, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58803/devtoo..., se:cdpVersion: 144.0.7559.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (ec7c9a507648e080e35bae4ae2623235)] -\u003e id: ctl00_phBody_SignUp_btnContinue]\nSession ID: ec7c9a507648e080e35bae4ae2623235\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)\r\n\tat Excel_File.Excel01.click_continue(Excel01.java:71)\r\n\tat ✽.I click continue(file:///C:/Users/aditya.sah/eclipse-workspace/Cucumber_Testing_02/src/test/java/ExcelFeature/excel.feature:9)\r\n",
+              "duration": 1087484200,
+              "status": "failed"
+            },
             "line": 9,
+            "name": "I click continue",
+            "match": {
+              "location": "Excel_File.Excel01.click_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
             "name": "Signup should match expected result",
             "match": {
-              "location": "StepDefination03.Testcase03.validateResult()"
+              "location": "Excel_File.Excel01.validateResult()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@tag2"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2026-01-28T07:11:52.115Z",
-        "line": 14,
-        "name": "Validate signup result",
-        "description": "",
-        "id": "sign-up-bookswagon;validate-signup-result;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 6157821500,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I am on the BooksWagon signup page",
-            "match": {
-              "location": "StepDefination03.Testcase03.openSignupPage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 4707464700,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I sign up using name \"Yash Gangwar\" and mobile \"8887776665\" expecting \"pass\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Yash Gangwar\"",
-                  "offset": 21
-                },
-                {
-                  "val": "\"8887776665\"",
-                  "offset": 47
-                },
-                {
-                  "val": "\"pass\"",
-                  "offset": 70
-                }
-              ],
-              "location": "StepDefination03.Testcase03.signup(java.lang.String,java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 418458100,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "Signup should match expected result",
-            "match": {
-              "location": "StepDefination03.Testcase03.validateResult()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@tag2"
+            "name": "@signup"
           }
         ]
       }
@@ -139,7 +93,7 @@
     "description": "",
     "id": "sign-up-bookswagon",
     "keyword": "Feature",
-    "uri": "file:src/test/java/RunnerPackage/Doc.feature",
+    "uri": "file:src/test/java/ExcelFeature/excel.feature",
     "tags": []
   }
 ]

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-28T12:41:37 IST" name="Default suite" finished-at="2026-01-28T12:42:03 IST" duration-ms="26512">
+  <suite started-at="2026-01-28T17:31:58 IST" name="Default suite" finished-at="2026-01-28T17:32:17 IST" duration-ms="18590">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunnerPackage.Runnerfile_3@76a82f33]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunnerPackage.ExcelFile@2b52c0d6]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2026-01-28T12:41:37 IST" name="Default test" finished-at="2026-01-28T12:42:03 IST" duration-ms="26512">
-      <class name="TestRunnerPackage.Runnerfile_3">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:TestRunnerPackage.Runnerfile_3@76a82f33]" started-at="2026-01-28T12:41:37 IST" name="setUpClass" finished-at="2026-01-28T12:41:37 IST" duration-ms="753" status="PASS">
+    <test started-at="2026-01-28T17:31:58 IST" name="Default test" finished-at="2026-01-28T17:32:17 IST" duration-ms="18590">
+      <class name="TestRunnerPackage.ExcelFile">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:TestRunnerPackage.ExcelFile@2b52c0d6]" started-at="2026-01-28T17:31:58 IST" name="setUpClass" finished-at="2026-01-28T17:31:59 IST" duration-ms="741" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunnerPackage.Runnerfile_3@76a82f33]" started-at="2026-01-28T12:41:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-01-28T12:41:52 IST" duration-ms="14250" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunnerPackage.ExcelFile@2b52c0d6]" started-at="2026-01-28T17:31:59 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-01-28T17:32:16 IST" duration-ms="17637" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Validate signup result"]]>
+                <![CDATA["Validate signup with Excel row 1 (first data row)"]]>
               </value>
             </param>
             <param index="1">
@@ -27,30 +27,53 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <input type="submit" name="ctl00$phBody$SignUp$btnContinue" value="Continue" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$phBody$SignUp$btnContinue&quot;, &quot;&quot;, true, &quot;vgSignUp&quot;, &quot;&quot;, false, false))" id="ctl00_phBody_SignUp_btnContinue" class="btn btn-block border themeborder themecolor mb-2 signupcontinue mt-3"> is not clickable at point (950, 627). Other element would receive the click: <iframe title="recaptcha challenge expires in two minutes" name="c-3e9ze9dr4yh7" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/bframe?hl=en&amp;v=N67nZn4AqZkNcbeMu4prBgzg&amp;k=6LcWegclAAAAANuIZ3_JgCoh-naBjY69vaCvY2Xj&amp;bft=0dAFcWeA7Mhs_kSA_iAGsrWLpXnu-CilJF_oUqtsFsWn8P3kzn35_RafiN8Sylps-KaHPjb2JBO5_31ICx1I6vexHX0SMDu14e-w" style="width: 400px; height: 611px;"></iframe>
+  (Session info: chrome=144.0.7559.61)
+Build info: version: '4.36.0', revision: '6d115cfd87'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ec7c9a507648e080e35bae4ae2623235, clickElement {id=f.BC90CB4FCBB88E5DDC3BE043773F17D9.d.D5897519E1E89ED357F4FF8ACD001634.e.93}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.61, chrome: {chromedriverVersion: 144.0.7559.109 (6a8d5e49388..., userDataDir: C:\Users\aditya.sah\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58803}, goog:processID: 14632, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58803/devtoo..., se:cdpVersion: 144.0.7559.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ec7c9a507648e080e35bae4ae2623235)] -> id: ctl00_phBody_SignUp_btnContinue]
+Session ID: ec7c9a507648e080e35bae4ae2623235]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="submit" name="ctl00$phBody$SignUp$btnContinue" value="Continue" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$phBody$SignUp$btnContinue&quot;, &quot;&quot;, true, &quot;vgSignUp&quot;, &quot;&quot;, false, false))" id="ctl00_phBody_SignUp_btnContinue" class="btn btn-block border themeborder themecolor mb-2 signupcontinue mt-3"> is not clickable at point (950, 627). Other element would receive the click: <iframe title="recaptcha challenge expires in two minutes" name="c-3e9ze9dr4yh7" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/bframe?hl=en&amp;v=N67nZn4AqZkNcbeMu4prBgzg&amp;k=6LcWegclAAAAANuIZ3_JgCoh-naBjY69vaCvY2Xj&amp;bft=0dAFcWeA7Mhs_kSA_iAGsrWLpXnu-CilJF_oUqtsFsWn8P3kzn35_RafiN8Sylps-KaHPjb2JBO5_31ICx1I6vexHX0SMDu14e-w" style="width: 400px; height: 611px;"></iframe>
+  (Session info: chrome=144.0.7559.61)
+Build info: version: '4.36.0', revision: '6d115cfd87'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ec7c9a507648e080e35bae4ae2623235, clickElement {id=f.BC90CB4FCBB88E5DDC3BE043773F17D9.d.D5897519E1E89ED357F4FF8ACD001634.e.93}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.61, chrome: {chromedriverVersion: 144.0.7559.109 (6a8d5e49388..., userDataDir: C:\Users\aditya.sah\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58803}, goog:processID: 14632, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58803/devtoo..., se:cdpVersion: 144.0.7559.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ec7c9a507648e080e35bae4ae2623235)] -> id: ctl00_phBody_SignUp_btnContinue]
+Session ID: ec7c9a507648e080e35bae4ae2623235
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at Excel_File.Excel01.click_continue(Excel01.java:71)
+at ✽.I click continue(file:///C:/Users/aditya.sah/eclipse-workspace/Cucumber_Testing_02/src/test/java/ExcelFeature/excel.feature:9)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunnerPackage.Runnerfile_3@76a82f33]" started-at="2026-01-28T12:41:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-01-28T12:42:03 IST" duration-ms="11292" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate signup result"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Sign up BooksWagon]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunnerPackage.Runnerfile_3@76a82f33]" started-at="2026-01-28T12:42:03 IST" name="tearDownClass" finished-at="2026-01-28T12:42:03 IST" duration-ms="153" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunnerPackage.ExcelFile@2b52c0d6]" started-at="2026-01-28T17:32:16 IST" name="tearDownClass" finished-at="2026-01-28T17:32:17 IST" duration-ms="142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- TestRunnerPackage.Runnerfile_3 -->
+      </class> <!-- TestRunnerPackage.ExcelFile -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

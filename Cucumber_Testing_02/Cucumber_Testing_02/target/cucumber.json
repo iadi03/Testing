@@ -1,0 +1,145 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2026-01-28T07:11:38.011Z",
+        "line": 13,
+        "name": "Validate signup result",
+        "description": "",
+        "id": "sign-up-bookswagon;validate-signup-result;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9865219800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the BooksWagon signup page",
+            "match": {
+              "location": "StepDefination03.Testcase03.openSignupPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3661428200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I sign up using name \"Priyanshu\" and mobile \"9998887776\" expecting \"pass\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Priyanshu\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"9998887776\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"pass\"",
+                  "offset": 67
+                }
+              ],
+              "location": "StepDefination03.Testcase03.signup(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 542412800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Signup should match expected result",
+            "match": {
+              "location": "StepDefination03.Testcase03.validateResult()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2026-01-28T07:11:52.115Z",
+        "line": 14,
+        "name": "Validate signup result",
+        "description": "",
+        "id": "sign-up-bookswagon;validate-signup-result;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6157821500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the BooksWagon signup page",
+            "match": {
+              "location": "StepDefination03.Testcase03.openSignupPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4707464700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I sign up using name \"Yash Gangwar\" and mobile \"8887776665\" expecting \"pass\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Yash Gangwar\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"8887776665\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"pass\"",
+                  "offset": 70
+                }
+              ],
+              "location": "StepDefination03.Testcase03.signup(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 418458100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Signup should match expected result",
+            "match": {
+              "location": "StepDefination03.Testcase03.validateResult()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "Sign up BooksWagon",
+    "description": "",
+    "id": "sign-up-bookswagon",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/RunnerPackage/Doc.feature",
+    "tags": []
+  }
+]

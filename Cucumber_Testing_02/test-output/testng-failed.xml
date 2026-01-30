@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="BrowserCompatability.BrowserTest">
+      <class name="util.BaseUtil">
         <methods>
-          <include name="setUpClass"/>
-          <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="0"/>
+          <include name="passw"/>
+          <include name="uname"/>
         </methods>
-      </class> <!-- BrowserCompatability.BrowserTest -->
+      </class> <!-- util.BaseUtil -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
